@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void getData() {
+        // sample data
         diyetIpuclariModelList.add(new SwipeCardsViewModel("Bol Su veya Kalorisiz İçecek İçin","Elinizi patates cipsi torbasına daldırmadan önce bir bardak su için. İnsanlar bazen açlıkla susuzluğu birbirine karıştırır, yani, tüm gereken şey buz gibi bir bardak suyken sonunuz fazladan kalorileri tıkınmak olabilir. Yalnızca su sizi tatmin etmiyorsa tatlandırılmış su, soda içmeyi veya bir bardak bitki çayı demlemeyi deneyebilirsiniz."));
         diyetIpuclariModelList.add(new SwipeCardsViewModel("Gece Atıştırmalarında Seçici Olun","Düşüncesiz yemeler genellikle akşam yemeğinden sonra olmaktadır, yani günün sonunda nihayet oturup rahatlayabildiğiniz vakitte. Televizyonun önünde atıştırmak diyetten vazgeçmenin en kolay yoludur. Ya belli bir saatten sonra mutfağın kapısına kilit koyun ya da kendinize sadece düşük kalorili yiyecekler için izin verin."));
         diyetIpuclariModelList.add(new SwipeCardsViewModel("En Sevdiğiniz Yiyeceklerin Tadını Çıkarın","En sevdiğiniz yemekleri tamamen menüden çıkarmak yerine cimri davranın. Koca bir kutu kurabiye veya bir torba şeker yerine tadımlıkla yetinin. Sevdiğiniz yiyeceklerin keyfini sürmeye devam edebilirsiniz, işin püf noktası ölçülü olmaktır."));
